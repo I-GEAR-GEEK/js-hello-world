@@ -3,14 +3,15 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  return res.send('<h1>4 king</h1>')
+  return res.send('<h1>4 king</h1><button href = "/donodus">nut</button>')
 })
 
 app.get('/donodus', (req, res) => {
   return res.send('<h1>Hi my name is jiraphon</h1>')
 })
+
 app.get('/mile', (req, res) => {
-  return res.send('<h1>สวัดีครับ</h1>')
+  return res.send('สวัสดีครับ')
 })
 
 app.get('/aof', (req, res) => {
