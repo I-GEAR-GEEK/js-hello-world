@@ -3,10 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  return res.send('<h1>4 king</h1><button><a href = "https://donodus-develop.herokuapp.com/mile">mile</a></button>',
-  '<button><a href = "https://donodus-develop.herokuapp.com/donodus">nut</a></button>',
-  '<button><a href = "https://donodus-develop.herokuapp.com/aof">aof</a></button>',
-  '<button><a href = "https://donodus-develop.herokuapp.com/lee">boss</a></button>')
+  return res.send('<h1>4 king</h1><button><a href = "https://donodus-develop.herokuapp.com/mile">mile</a></button><button><a href = "https://donodus-develop.herokuapp.com/donodus">nut</a></button><button><a href = "https://donodus-develop.herokuapp.com/aof">aof</a></button><button><a href = "https://donodus-develop.herokuapp.com/lee">boss</a></button>')
 })
 
 app.get('/donodus', (req, res) => {
