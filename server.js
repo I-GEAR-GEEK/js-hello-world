@@ -3,10 +3,10 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  return res.send('<h1>หิวส้นตีนวัยวุ่นเมื่อไหร่จะโดนสักที</h1>')
+  return res.send('<h1>Hello 0000</h1>')
 })
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.info('Server is ready at', PORT)
-})
+}) 
