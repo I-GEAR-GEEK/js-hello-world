@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  return res.send('<h1>4 king</h1><button href = "/donodus">nut</button>')
+  return res.send('<h1>4 king</h1><button href = "https://donodus-develop.herokuapp.com/mile">nut</button>')
 })
 
 app.get('/donodus', (req, res) => {
